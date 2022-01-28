@@ -1,0 +1,69 @@
+logging:
+  level:
+    root: ERROR
+    com.zoomiit.generators: DEBUG
+app:
+  scanner:
+    since: 01/01/2022
+    until: 31/01/2022
+    committer: Ramón Granda García  
+    pon: 2163
+    black-list:
+      - GOOl
+      - dfafsd
+    jira-codes:
+
+    exclude-commits:
+    
+    exclude-files:
+      - .yml
+      - .xml 
+    git:
+      ssl-verify: false
+      enabled: true
+      repositories:
+        - 
+          url : https://host/bitbucket/main.git 
+          branches: 
+            - develop 
+          code: PROJECT 1
+          enabled: false  
+        - 
+          url: https://github.com/ramongranda/evidences-generator.git
+          token: ghp_OsknJSuvGTOAmdC23212dPYwmnPDw2GJUR4 
+          branches: 
+            - develop
+          code: PROJECT GIT
+          enabled: true
+    svn:
+      enabled: false        
+      repositories:
+        - 
+          url: https://host/svn/repo1 
+          branches: 
+            - trunk
+          code: PROJECT 2
+          enabled: false
+    local:
+      enabled: true
+      repositories:
+        - 
+          path: T:\dev\local\directorio
+          enabled: true
+          code: PROJECT 3
+    
+spring:
+  datasource:
+    url: jdbc:sqlite::resource:evidences.db?date_string_format=yyyy-MM-dd HH:mm:ss
+    username: 
+    password: 
+    driverClassName: org.sqlite.JDBC
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        show_sql: true
+        use_sql_comments: true
+        format_sql: true
+        dialect: com.zoommit.generators.evidences.dialect.SQLiteDialect
