@@ -82,7 +82,7 @@ app:
           enabled: true 
         - 
           url : https://github.com/ramongranda/evidences-generator.git
-          token: {{pesonal_access_token}}
+          token: {{personal_access_token}}
           branches: 
             - develop 
             - master
