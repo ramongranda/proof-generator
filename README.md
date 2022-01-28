@@ -28,8 +28,6 @@ Please consider upgrading to one of these versions at your earliest convenience.
 
 ## Latest news
 
-* 20/01/2022: Evidences generator v1.2.0 is out and is now based on Java 11. 
-* 24/01/2022: Evidences generator v1.3.0 supports local git repository scanning. 
 * 26/01/2022: Evidences generator v1.4.0 supports gitHub repository with Peronal access tokens. [GitHub: How to creating a personal access token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token) 
 
 # What is Evidences Generator ?
