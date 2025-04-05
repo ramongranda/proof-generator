@@ -1,7 +1,11 @@
 /**
- * PdfGenerator.java 23 ene 2022
+ * PdfGenerator.java
  * <p>
- * Copyright 2022 ZOOMIIT.
+ * Copyright 2025 ZOOMIIT.
+ * <p>
+ * This file is part of the Proof Generator project.
+ * Unauthorized copying of this file, via any medium is strictly prohibited.
+ * Proprietary and confidential.
  */
 package com.zoomiit.generators.evidences.pdf;
 

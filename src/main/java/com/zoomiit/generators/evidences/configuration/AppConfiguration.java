@@ -1,7 +1,11 @@
 /**
- * AppConfiguration.java 14-sep-2019
+ * AppConfiguration.java
  * <p>
- * Copyright 2019 ZOOMIIT.
+ * Copyright 2025 ZOOMIIT.
+ * <p>
+ * This file is part of the Proof Generator project.
+ * Unauthorized copying of this file, via any medium is strictly prohibited.
+ * Proprietary and confidential.
  */
 package com.zoomiit.generators.evidences.configuration;
 
