@@ -1,6 +1,6 @@
 <configuration>
 
-    <property name="APP_LOG_PATH" value="${catalina.home}/log/evidences"/>
+    <property name="APP_LOG_PATH" value="${catalina.home}/log/proof"/>
 
     <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
         <layout class="ch.qos.logback.classic.PatternLayout">
