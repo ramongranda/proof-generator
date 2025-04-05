@@ -4,13 +4,15 @@
   <parent>
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-parent</artifactId>
-    <version>2.5.8</version>
+    <version>3.1.0</version>
     <relativePath />
     <!-- lookup parent from repository -->
   </parent>
   <groupId>com.zoomiit.generators</groupId>
   <artifactId>evidences-generator</artifactId>
-  <version>1.5.0-SNAPSHOT</version>
+  
+  <version>2.0.0</version>
+
   <name>evidences</name>
   <description>R+D and Innovation Evidences generator</description>
   <distributionManagement>
@@ -22,20 +24,20 @@
   </distributionManagement>
 
   <properties>
-    <java.version>11</java.version>
-    <mapstruct.version>1.4.2.Final</mapstruct.version>
-    <org.eclipse.jgit.version>6.0.0.202111291000-r</org.eclipse.jgit.version>
-    <svnkit.version>1.10.3</svnkit.version>
-    <maven-jar-plugin.version>3.1.1</maven-jar-plugin.version>
-    <pdfbox.version>2.0.25</pdfbox.version>
+    <source>21</source>
+    <target>21</target>
+    <mapstruct.version>1.6.3</mapstruct.version>
+    <org.eclipse.jgit.version>7.2.0.202503040940-r</org.eclipse.jgit.version>
+    <svnkit.version>1.10.11</svnkit.version>
+    <maven-jar-plugin.version>3.4.2</maven-jar-plugin.version>
+    <pdfbox.version>2.0.33</pdfbox.version>
     <pdfbox2-layout.version>1.0.1</pdfbox2-layout.version>
-    <sonar.organization>zoomiit</sonar.organization>
-    <sonar.host.url>https://sonarcloud.io</sonar.host.url>
     <commons-collections4.version>4.4</commons-collections4.version>
-    <easy-random-core.version>4.3.0</easy-random-core.version>
-    <junit-extensions.version>2.5.0</junit-extensions.version>
-    <easy-random-vavr-extension.version>1.0.0</easy-random-vavr-extension.version>
     <javafaker.version>1.0.2</javafaker.version>
+    <lombok.version>1.18.38</lombok.version>
+    <validation-api.version>2.0.1.Final</validation-api.version>
+    <org.instancio.version>5.4.0</org.instancio.version>
+    <sonar.organization>zoomiit</sonar.organization>
   </properties>
 
   <dependencies>
@@ -99,6 +101,7 @@
     <dependency>
       <groupId>javax.validation</groupId>
       <artifactId>validation-api</artifactId>
+      <version>${validation-api.version}</version>
     </dependency>
 
     <!-- MAPSTRUCT -->
@@ -123,40 +126,26 @@
     </dependency>
 
     <dependency>
-      <groupId>io.projectreactor</groupId>
-      <artifactId>reactor-test</artifactId>
+      <groupId>org.instancio</groupId>
+      <artifactId>instancio-junit</artifactId>
+      <version>${org.instancio.version}</version>
       <scope>test</scope>
     </dependency>
 
     <dependency>
-      <groupId>org.jeasy</groupId>
-      <artifactId>easy-random-core</artifactId>
-      <version>${easy-random-core.version}</version>
-      <scope>test</scope>
-    </dependency>
-
-    <dependency>
-      <groupId>io.github.xshadov</groupId>
-      <artifactId>easy-random-vavr-extension</artifactId>
-      <version>${easy-random-vavr-extension.version}</version>
-    </dependency>
-
-    <dependency>
-      <groupId>io.github.glytching</groupId>
-      <artifactId>junit-extensions</artifactId>
-      <version>${junit-extensions.version}</version>
-      <scope>test</scope>
-    </dependency>
-
-    <dependency>
-      <groupId>com.github.javafaker</groupId>
-      <artifactId>javafaker</artifactId>
-      <version>${javafaker.version}</version>
+      <groupId>org.instancio</groupId>
+      <artifactId>instancio-core</artifactId>
+      <version>${org.instancio.version}</version>
       <scope>test</scope>
     </dependency>
 
   </dependencies>
+
   <repositories>
+    <repository>
+      <id>central</id>
+      <url>https://repo.maven.apache.org/maven2</url>
+    </repository>
     <repository>
       <id>jitpack.io</id>
       <url>https://jitpack.io</url>
@@ -185,6 +174,8 @@
           <compilerArgs>
             <compilerArg>-Amapstruct.defaultComponentModel=spring</compilerArg>
           </compilerArgs>
+          <source>21</source>
+          <target>21</target>
         </configuration>
 
       </plugin>

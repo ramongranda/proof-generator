@@ -31,3 +31,4 @@ pom.xml.versionsBackup
 catalina.home_IS_UNDEFINED/log/evidences/general.2022-01-23.0.html
 mvnw
 mvnw.cmd
+/.idea

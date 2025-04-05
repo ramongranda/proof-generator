@@ -22,13 +22,14 @@
 ***
 ## Project status
 
-As of  January 1, 2022, Evidences Generator is in develop mode. This means that the java version has been updated. 
-This means that the java version has been updated and from this moment on the versions 1.x.x (based on Java 11). 
+As of  April 1, 2025, Evidences Generator is in develop mode. This means that the java version has been updated. 
+This means that the java version has been updated and from this moment on the versions 2.x.x (based on Java 21). 
 Please consider upgrading to one of these versions at your earliest convenience.
 
 ## Latest news
 
-* 26/01/2022: Evidences generator v1.4.0 supports gitHub repository with Peronal access tokens. [GitHub: How to creating a personal access token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token) 
+* 26/01/2022: Evidences generator v1.4.0 supports gitHub repository with Personal access tokens. [GitHub: How to creating a personal access token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token)
+* 01/04/2025: Evidences generator v2.0.0 supports Java 21. The version 1.x.x is deprecated and will not be updated anymore. Please consider upgrading to one of these versions at your earliest convenience.
 
 # What is Evidences Generator ?
 The evidence generator allows the scanning of code repositories in order to generate the necessary documentation for the justification of the evidence of the development of innovation and development projects.
