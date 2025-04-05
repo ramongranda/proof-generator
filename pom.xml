@@ -10,7 +10,9 @@
   </parent>
   <groupId>com.zoomiit.generators</groupId>
   <artifactId>evidences-generator</artifactId>
+  
   <version>2.0.0</version>
+
   <name>evidences</name>
   <description>R+D and Innovation Evidences generator</description>
   <distributionManagement>
