@@ -28,7 +28,7 @@ Please consider upgrading to one of these versions at your earliest convenience.
 
 ## Latest news
 
-* 26/01/2022: Evidences generator v1.4.0 supports gitHub repository with Peronal access tokens. [GitHub: How to creating a personal access token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token) 
+* 26/01/2022: Evidences generator v1.4.0 supports gitHub repository with Personal access tokens. [GitHub: How to creating a personal access token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token) 
 
 # What is Evidences Generator ?
 The evidence generator allows the scanning of code repositories in order to generate the necessary documentation for the justification of the evidence of the development of innovation and development projects.

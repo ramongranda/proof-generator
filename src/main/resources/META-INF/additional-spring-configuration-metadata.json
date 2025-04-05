@@ -1,77 +1,79 @@
-{"properties": [
-  {
-    "name": "app.scanner.black-list",
-    "type": "java.util.List",
-    "description": "Black list words"
-  },
-  {
-    "name": "app.scanner.since",
-    "type": "java.lang.String",
-    "description": "A description for 'app.scanner.since'"
-  },
-  {
-    "name": "app.scanner.until",
-    "type": "java.lang.String",
-    "description": "A description for 'app.scanner.until'"
-  },
-  {
-    "name": "app.scanner.committer",
-    "type": "java.lang.String",
-    "description": "A description for 'app.scanner.committer'"
-  },
-  {
-    "name": "app.scanner.pon",
-    "type": "java.lang.String",
-    "description": "A description for 'app.scanner.pon'"
-  },
-  {
-    "name": "app.scanner.jira-codes",
-    "type": "java.util.List",
-    "description": "A description for 'app.scanner.jira-codes'"
-  },
-  {
-    "name": "app.scanner.exclude-commits",
-    "type": "java.util.List",
-    "description": "A description for 'app.scanner.exclude-commits'"
-  },
-  {
-    "name": "app.scanner.exclude-files",
-    "type": "java.util.List",
-    "description": "A description for 'app.scanner.exclude-files'"
-  },
-  {
-    "name": "app.scanner.git.ssl-verify",
-    "type": "boolean",
-    "description": "A description for 'app.scanner.git.ssl-verify'"
-  },
-  {
-    "name": "app.scanner.git.enabled",
-    "type": "boolean",
-    "description": "A description for 'app.scanner.git.enabled'"
-  },
-  {
-    "name": "app.scanner.git.repositories",
-    "type": "java.util.List",
-    "description": "A description for 'app.scanner.git.repositories'"
-  },
-  {
-    "name": "app.scanner.svn.enabled",
-    "type": "boolean",
-    "description": "A description for 'app.scanner.svn.enabled'"
-  },
-  {
-    "name": "app.scanner.svn.repositories",
-    "type": "java.util.List",
-    "description": "A description for 'app.scanner.svn.repositories'"
-  },
-  {
-    "name": "app.scanner.local.enabled",
-    "type": "java.lang.String",
-    "description": "A description for 'app.scanner.local.enabled'"
-  },
-  {
-    "name": "app.scanner.local.repositories",
-    "type": "java.util.List",
-    "description": "A description for 'app.scanner.local.repositories'"
-  }
-]}
+{
+  "properties": [
+    {
+      "name": "app.scanner.black-list",
+      "type": "java.util.List",
+      "description": "Black list words"
+    },
+    {
+      "name": "app.scanner.since",
+      "type": "java.lang.String",
+      "description": "A description for 'app.scanner.since'"
+    },
+    {
+      "name": "app.scanner.until",
+      "type": "java.lang.String",
+      "description": "A description for 'app.scanner.until'"
+    },
+    {
+      "name": "app.scanner.committer",
+      "type": "java.lang.String",
+      "description": "A description for 'app.scanner.committer'"
+    },
+    {
+      "name": "app.scanner.pon",
+      "type": "java.lang.String",
+      "description": "A description for 'app.scanner.pon'"
+    },
+    {
+      "name": "app.scanner.jira-codes",
+      "type": "java.util.List",
+      "description": "A description for 'app.scanner.jira-codes'"
+    },
+    {
+      "name": "app.scanner.exclude-commits",
+      "type": "java.util.List",
+      "description": "A description for 'app.scanner.exclude-commits'"
+    },
+    {
+      "name": "app.scanner.exclude-files",
+      "type": "java.util.List",
+      "description": "A description for 'app.scanner.exclude-files'"
+    },
+    {
+      "name": "app.scanner.git.ssl-verify",
+      "type": "boolean",
+      "description": "A description for 'app.scanner.git.ssl-verify'"
+    },
+    {
+      "name": "app.scanner.git.enabled",
+      "type": "boolean",
+      "description": "A description for 'app.scanner.git.enabled'"
+    },
+    {
+      "name": "app.scanner.git.repositories",
+      "type": "java.util.List",
+      "description": "A description for 'app.scanner.git.repositories'"
+    },
+    {
+      "name": "app.scanner.svn.enabled",
+      "type": "boolean",
+      "description": "A description for 'app.scanner.svn.enabled'"
+    },
+    {
+      "name": "app.scanner.svn.repositories",
+      "type": "java.util.List",
+      "description": "A description for 'app.scanner.svn.repositories'"
+    },
+    {
+      "name": "app.scanner.local.enabled",
+      "type": "java.lang.String",
+      "description": "A description for 'app.scanner.local.enabled'"
+    },
+    {
+      "name": "app.scanner.local.repositories",
+      "type": "java.util.List",
+      "description": "A description for 'app.scanner.local.repositories'"
+    }
+  ]
+}

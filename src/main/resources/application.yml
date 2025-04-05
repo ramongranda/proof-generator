@@ -6,7 +6,7 @@ app:
   scanner:
     since: 01/01/2022
     until: 31/01/2022
-    committer: Ramón Granda García  
+    committer: Ramón Granda García
     pon: 2163
     black-list:
       - GOOl
@@ -17,46 +17,42 @@ app:
     
     exclude-files:
       - .yml
-      - .xml 
+      - .xml
     git:
       ssl-verify: false
       enabled: true
       repositories:
-        - 
-          url : https://host/bitbucket/main.git 
-          branches: 
-            - develop 
+        - url: https://host/bitbucket/main.git
+          branches:
+            - develop
           code: PROJECT 1
-          enabled: false  
-        - 
-          url: https://github.com/ramongranda/evidences-generator.git
-          token: ghp_OsknJSuvGTOAmdC23212dPYwmnPDw2GJUR4 
-          branches: 
+          enabled: false
+        - url: https://github.com/ramongranda/evidences-generator.git
+          token: ghp_OsknJSuvGTOAmdC23212dPYwmnPDw2GJUR4
+          branches:
             - develop
           code: PROJECT GIT
           enabled: true
     svn:
-      enabled: false        
+      enabled: false
       repositories:
-        - 
-          url: https://host/svn/repo1 
-          branches: 
+        - url: https://host/svn/repo1
+          branches:
             - trunk
           code: PROJECT 2
           enabled: false
     local:
       enabled: true
       repositories:
-        - 
-          path: T:\dev\local\directorio
+        - path: T:\dev\local\directorio
           enabled: true
           code: PROJECT 3
-    
+
 spring:
   datasource:
     url: jdbc:sqlite::resource:evidences.db?date_string_format=yyyy-MM-dd HH:mm:ss
-    username: 
-    password: 
+    username:
+    password:
     driverClassName: org.sqlite.JDBC
   jpa:
     hibernate:

@@ -1,41 +1,53 @@
 /**
- * FileType.java 17-sep-2019
- *
+ * FileType.java 17 Sep 2019
+ * <p>
  * Copyright 2019 ZOOMIIT.
  */
 package com.zoomiit.generators.evidences.enums;
 
 /**
  * The Enum FileType.
- *
+ * Represents the types of file operations.
  */
 public enum FileType {
-  ADD, DELETE, MODIFIED, REMPLACED, NONE;
+  /**
+   * File added.
+   */
+  ADD,
 
   /**
-   * Obtiene type.
+   * File deleted.
+   */
+  DELETE,
+
+  /**
+   * File modified.
+   */
+  MODIFIED,
+
+  /**
+   * File replaced.
+   */
+  REPLACED,
+
+  /**
+   * No operation.
+   */
+  NONE;
+
+  /**
+   * Gets the FileType based on a character.
    *
-   * @param type type
-   * @return type
+   * @param type the character representing the file type
+   * @return the corresponding FileType
    */
   public static FileType getType(final char type) {
-    FileType out = null;
-    switch (type) {
-      case 'A':
-        out = FileType.ADD;
-        break;
-      case 'M':
-        out = FileType.MODIFIED;
-        break;
-      case 'D':
-        out = FileType.DELETE;
-        break;
-      case 'R':
-        out = FileType.REMPLACED;
-        break;
-      default:
-        out = FileType.NONE;
-    }
-    return out;
+    return switch (type) {
+      case 'A' -> FileType.ADD;
+      case 'M' -> FileType.MODIFIED;
+      case 'D' -> FileType.DELETE;
+      case 'R' -> FileType.REPLACED;
+      default -> FileType.NONE;
+    };
   }
 }
